@@ -122,3 +122,90 @@ button {
 }
 
 
+@media (max-width: 1200px) {
+    #nav {
+        margin: 20px;
+    }
+
+    li, a {
+        margin-left: 20px;
+    }
+
+    .logo2 {
+        font-size: 28px;
+    }
+
+    .main-content {
+        margin-left: 50px;
+    }
+
+    #main-img {
+        width: 50%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    #nav-types {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li, a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .main-content {
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    #content1, #content2 {
+        font-size: 35px;
+    }
+
+    #center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-img {
+        position: static;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .newsletter-form button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        margin-left: 10px;
+    }
+
+    #content1, #content2 {
+        font-size: 28px;
+    }
+
+    #main-img {
+        width: 90%;
+    }
+
+    .newsletter-form input, .newsletter-form button {
+        width: 100%;
+    }
+
+    .newsletter-form button {
+        font-size: 16px;
+    }
+}
